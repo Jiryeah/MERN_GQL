@@ -23,10 +23,11 @@ const SavedBooks = () => {
     }
 
     try {
-      await removeBook({
+      const { data } = await removeBook({
         // inject the variable that we want GraphQL to use for the function
         variable: { bookId },
       });
+      console.log(data);
       // no we will inject the book id into the removeBookId(), that will then remove the book from localStorage
       removeBookId(bookId);
     } catch (error) {

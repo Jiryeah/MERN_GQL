@@ -56,7 +56,7 @@ THEN I am logged out of the site and presented with a menu with the options Sear
 
 ## Link to Deployed App
 
--
+- https://protected-bastion-67896.herokuapp.com/
 
 ### Technologies Used
 

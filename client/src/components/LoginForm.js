@@ -23,7 +23,7 @@ const LoginForm = () => {
     } else {
       setShowAlert(false);
     }
-  });
+  }, [error]);
 
   const handleFormSubmit = async (event) => {
     event.preventDefault();

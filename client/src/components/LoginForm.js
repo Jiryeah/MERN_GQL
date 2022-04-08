@@ -19,6 +19,7 @@ const LoginForm = () => {
 
   useEffect(() => {
     if (error) {
+      // given that the default state is false when declared above, we can toggle it on when we want with this conditional if statement.
       setShowAlert(true);
     } else {
       setShowAlert(false);

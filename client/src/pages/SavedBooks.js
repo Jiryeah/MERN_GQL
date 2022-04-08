@@ -18,17 +18,19 @@ const SavedBooks = () => {
     // token variable will check if the user is logged in, if so it will get a token.
     const token = Auth.loggedIn() ? Auth.getToken() : null;
 
+    // if there is not token, you will not have this functionality
+    // will need to log/signup to generate token.
     if (!token) {
       return false;
     }
 
     try {
       const { data } = await removeBook({
-        // inject the variable that we want GraphQL to use for the function
+        // inject the variable that we want GraphQL to use for the mutation function removeBook ();
         variable: { bookId },
       });
       console.log(data);
-      // no we will inject the book id into the removeBookId(), that will then remove the book from localStorage
+      // now we will inject the book id into the removeBookId(), that will then remove the book from localStorage
       removeBookId(bookId);
     } catch (error) {
       console.error(error);

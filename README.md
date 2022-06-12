@@ -54,6 +54,10 @@ WHEN I click on the Logout button
 THEN I am logged out of the site and presented with a menu with the options Search for Books and Login/Signup and an input field to search for books and a submit button
 ```
 
+## Screenshot 
+- <img width="1439" alt="Screen Shot 2022-06-12 at 1 30 32 PM" src="https://user-images.githubusercontent.com/92201576/173247966-03d3351c-b6d7-471a-92a2-813f9d15557a.png">
+
+
 ## Link to Deployed App
 
 - https://protected-bastion-67896.herokuapp.com/

@@ -10,7 +10,7 @@
 
 # Summary
 
-Build a Node.js command-line application that takes in information about employees on a software engineering team and generates an HTML webpage that displays summaries for each person. Testing, through Jest, will be used to ensure correct code is used.
+Refactored a Google Books Search Engine application that was previously using a RESTful API. The application now uses a GraphQL API built with an Apollo Server. 
 
 # User Story
 

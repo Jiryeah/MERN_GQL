@@ -1,11 +1,20 @@
-# MERN GQL Refactor
+# Table of Contents
 
-## Table of Contents
+## Install
+1. Clone repo
+2. Install Dependencies
+```md
+npm i
+```
+3. Run app.
+```md
+npm run start
+```
 
 - [User Story](#user-story)
 - [Requirements](#requirements)
 - [Screenshot](#screenshot)
-- [Link to Deployed App](#Link-to-deployed-app)
+- [Link](#Link)
 - [Technologies Used](#technologies-used)
 
 # Summary
@@ -55,10 +64,10 @@ THEN I am logged out of the site and presented with a menu with the options Sear
 ```
 
 ## Screenshot 
-- <img width="1439" alt="Screen Shot 2022-06-12 at 1 30 32 PM" src="https://user-images.githubusercontent.com/92201576/173247966-03d3351c-b6d7-471a-92a2-813f9d15557a.png">
+<img width="1439" alt="Screen Shot 2022-06-12 at 1 30 32 PM" src="https://user-images.githubusercontent.com/92201576/173247966-03d3351c-b6d7-471a-92a2-813f9d15557a.png">
 
 
-## Link to Deployed App
+## Link
 
 - https://protected-bastion-67896.herokuapp.com/
 
